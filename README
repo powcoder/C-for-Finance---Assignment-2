@@ -1,0 +1,33 @@
+Data files for C++ For Finance 2019/20 Assignment 2
+===================================================
+
+What you have
+-------------
+
+There are 4 files inside this zip:
+
+  * README     - This file
+  * People.csv - An example of the client file (CSV format)
+  * People.tsv - An example of the client file (TSV format)
+  * Feed.dat   - An example of the product feed
+
+The two People files contain identical data, just saved in the two different
+formats.
+
+The Feed is in chronological order by product initial availability - the data
+used to mark your program is guaranteed to be the same.  Remember your program
+cannot use data from later lines of the feed to retrospectively change how
+much or when to invest in previous products.  Imagine that you only become
+aware of products on the date they become available and you cannot
+time-travel.
+
+About the data
+--------------
+
+All data, except people's names, has been randomly generated (using biased
+distributions in some cases).  Any discernible words or patterns, especially
+in the institution names or product codes, is coincidental and unintentional.
+
+Names have been taken from the uk-500.zip file downloaded from
+https://www.briandunning.com/sample-data/ 2020-03-10.
+
